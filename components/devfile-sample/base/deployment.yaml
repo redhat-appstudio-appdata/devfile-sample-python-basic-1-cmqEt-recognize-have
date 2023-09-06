@@ -32,7 +32,7 @@ spec:
           value: FORK
         - name: LOCK
           value: LOCK
-        image: nodejs-image:latest
+        image: quay.io/redhat-user-workloads/nviduchi-tenant/devfile-sample-python-basic-1/devfile-sample@sha256:1c3fa84b642c579ea198ae6b8b23495ee0510abaadc391c0c7e60a7444302fb3
         name: my-nodejs
         ports:
         - containerPort: 3001
