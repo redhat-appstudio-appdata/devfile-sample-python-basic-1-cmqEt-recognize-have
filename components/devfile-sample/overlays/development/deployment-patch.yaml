@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/nviduchi-tenant/devfile-sample-python-basic-1/devfile-sample@sha256:1c3fa84b642c579ea198ae6b8b23495ee0510abaadc391c0c7e60a7444302fb3
+        name: my-nodejs
+        resources: {}
+status: {}
