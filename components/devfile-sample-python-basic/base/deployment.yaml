@@ -28,7 +28,7 @@ spec:
       - env:
         - name: Nadav
           value: Vidu
-        image: quay.io/redhat-user-workloads/nviduchi-tenant/devfile-sample-python-basic-1/devfile-sample-python-basic@sha256:5e371681a86a1651b4928da25c0eb3133c747cb4109601d197aab36b90bde374
+        image: quay.io/redhat-user-workloads/nviduchi-tenant/devfile-sample-python-basic-1/devfile-sample-python-basic@sha256:335a6e7350a613503940f23e46c0f2e6bd7d32ab13abeaca37e272a32a641e90
         name: my-python
         ports:
         - containerPort: 8081
